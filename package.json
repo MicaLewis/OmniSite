@@ -1,0 +1,23 @@
+{
+  "name": "micalewis",
+  "version": "0.0.1",
+  "description": "A resume and test bed website for Mica Lewis on a digital ocean droplet vps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/MicaLewis/OmniSite"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Mica Lewis",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.1"
+  }
+}
