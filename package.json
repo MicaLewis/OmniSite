@@ -16,8 +16,10 @@
   "author": "Mica Lewis",
   "license": "UNLICENSED",
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "jquery": "^3.3.1",
     "morgan": "^1.9.1"
   }
 }
