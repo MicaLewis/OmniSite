@@ -1,0 +1,7 @@
+/*Mica's custom css test*/
+
+.col-lg-* {
+	border-width: thick;
+	border-color: #000000;
+	color: #ff0000;
+}

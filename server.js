@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
 const port = 443
-const path = require('path');
+var path = require('path');
 
-//app.use(express.static(__dirname + '/public'))
+app.use(express.static('public'))
 
 app.listen(port, () => console.log('Example app listening on port %d', port))
 
