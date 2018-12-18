@@ -1,0 +1,24 @@
+{
+  "name": "micalewis.me",
+  "version": "1.0.0",
+  "description": "json for micalewis.me website",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicaLewis/OmniSite.git"
+  },
+  "author": "Mica Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicaLewis/OmniSite/issues"
+  },
+  "homepage": "https://github.com/MicaLewis/OmniSite#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "vue": "^2.5.17"
+  }
+}
