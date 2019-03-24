@@ -1,7 +1,7 @@
 var ld = Display.newDisplay("l_col", 4/3)
-var rd = Display.newDisplay("r_col", 4/3)
+//var rd = Display.newDisplay("r_col", 4/3)
 ld.animate()
-rd.animate()
+//rd.animate()
 
 function match() {
 	var match = []
@@ -33,4 +33,4 @@ function match() {
 	return match
 }
 
-document.addEventListener( 'mousedown', function(event) { console.log(match()) } );
+//document.addEventListener( 'mousedown', function(event) { console.log(match()) } );
