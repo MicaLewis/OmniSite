@@ -56,13 +56,22 @@
 			<div class="input-group flex-nowrap mr-2">
 				<div class="input-group-prepend">
 					<button type="button" class="btn btn-outline-secondary" id="new-rule" onclick="newRule()">New Rule</button>
+					<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Color</button>
+					<div class="dropdown-menu scrollable-menu" id="color-menu">
+						<a class="dropdown-item" href="#" onclick="ruleColor(2)">Red</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(3)">Orange</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(4)">Yellow Green</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(5)">Green</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(6)">Cyan</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(7)">Blue</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(8)">Purple</a>
+						<a class="dropdown-item" href="#" onclick="ruleColor(9)">Pink</a>
+					</div>
 					<span class="input-group-text">Current Rule:</span>
 				</div>
 				<input type="text" class="form-control" value="Rule #1" id="current-rule" disabled>
 				<div class="input-group-append">
-					<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">
-						Select Rule
-					</button>
+					<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Select Rule</button>
 					<div class="dropdown-menu scrollable-menu" id="rule-menu">
 					</div>
 				</div>
@@ -84,14 +93,17 @@
 			<div class="col-md-5" id="r_col"></div>
 			<div class="col-md-2">
 				<h2>Controls:</h2>
+				<b>Orbit Mode</b><br>
 				Orbit: click & drag<br>
 				Pan: shift+click & drag<br>
 				Zoom in/out: Scroll Wheel<br><br>
+				<b>Edit Mode</b><br>
 				Place terminal: a key<br>
 				Place non-terminal: 0-9 keys<br>
 				Remove block: r key<br>
 				Increase scale: . key<br>
 				Decrease scale: , key<br>
+				Return to Orbit: Any other key<br>
 			</div>
 		</div>
 		<div class="row">
