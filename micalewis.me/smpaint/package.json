@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/MicaLewis/OmniSite#readme",
   "dependencies": {
-    "ejs": "^2.6.1",
+    "ejs": "^3.1.7",
     "express": "^4.16.4",
     "vue": "^2.5.17"
   }
